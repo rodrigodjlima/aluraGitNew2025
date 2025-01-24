@@ -1,6 +1,6 @@
 let nome = prompt ('digite seu nome para participar do jogo');
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 500;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -12,7 +12,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', `${nome} Escolha um número entre 1 e 100`);
+    exibirTextoNaTela('p', `${nome} Escolha um número entre 1 e 500`);
 }
 
 exibirMensagemInicial();
